@@ -1,0 +1,84 @@
+.artwork {
+}
+.artwork img { width:50px; height:50px;}
+
+#main #content .center-stack > div.top-albums, #main #content .center-stack > div.top-songs, 
+#main #content .center-stack > .top-albums-and-songs, 
+#main #content .center-stack > .listeners-also-bought, 
+#main #content .center-stack > div.swoosh, 
+#main #content .center-stack div.movie-review-container, 
+#main #content .center-stack > .track-list, 
+#main #content .center-stack .stack-section .track-list { 
+	width:99% ;
+}
+
+#main #content .center-stack .tracklist-content-box { margin:0px 10px }
+#main #content .track-list table tr { padding: 10px  !important; }
+
+#main #content .center-stack .lockup {
+	/*display:none;*/
+}
+
+#main #content .center-stack {
+	padding-top: 15px !important;
+	background-color: transparent !important;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	color:#eee !important;
+	
+}
+#main #content .center-stack p {
+	color:#eee !important;
+}
+#main #content .center-stack .track-list {
+	margin-top: 10px !important;
+	position:relative;
+	left:-5px;
+	color:#eee !important;
+	top:-30px;
+}
+#main #content .center-stack .tracklist-header-box {
+	width: 100%;
+	width: 88%	9;
+	margin: 0px 0px !important;
+	border-bottom: 0px solid #DCE2E6;
+}
+body.social-preview #main #content .track-list {
+	background-color:transparent !important;
+}
+
+#main #content .center-stack .tracklist-content-box {
+	position: relative;
+	width: 100%;
+	margin-left: 0px;
+	padding-right: 0;
+	overflow-y: auto;
+	overflow-x: hidden;
+	z-index: 1000;
+}
+#main #content .track-list table tr th.index {
+	width:43px !important;
+}
+#main #content .track-list table.total-columns-4 tr th.name,
+#main #content .track-list table tr th.price, #main #content .track-list table tr td.price {
+	display:none !important;
+}
+
+
+#main #content .track-list table tr th.price, 
+#main #content .track-list table tr td.price,
+.tracklist-footer  {
+	/*display: none !important;*/
+}
+
+#main #content .track-list table tr th.view-in-itunes, 
+#main #content .track-list table tr td.view-in-itunes {
+	min-width: 50px !important;
+	width: 50px !important;
+	padding: 0 0 0 19px !important;
+}
+
+#main #content .center-stack .tracklist-content-box {
+	max-height: 235px !important;
+}

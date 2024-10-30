@@ -1,0 +1,115 @@
+.ipw_clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+* html .ipw_clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .ipw_clearfix { zoom: 1; } /* IE7 */
+
+.ipw_spacer { display: inline; margin:0px 5px 0px 3px; padding:0px 5px;  }
+
+.ipw_inside {
+	padding:20px;
+}
+
+.ipw_wrap a { color:#088bcd; text-decoration: none}
+.ipw_wrap a:hover { text-decoration: underline}
+
+.ipw_wrap a img { border:0px }
+
+.ipw_box {
+	border: 1px solid #dedede; 
+	border-radius: 5px; 
+	-moz-border-radius:5px; background: #fff; 
+	-webkit-box-shadow:0px 1px 0px #fff; 
+	-moz-box-shadow: 0px 1px 0px #fff; 
+	box-shadow:0px 1px 0px #fff; 
+	width:28.5%;
+	margin:0px 20px 20px 0px;
+	float:left;
+	position:relative;
+}
+
+.ipw_box h2 {
+	margin: 0px 0px 20px; 
+	padding:0px;
+}
+
+.ipw_top {
+	position:relative;
+}
+
+.ipw_top .ipw_close {
+	position:absolute;
+	top:-5px;
+	right:-5px;
+	font-size:120%;
+	background:#333;
+	border:2px solid white;
+	box-shadow:0px 2px 5px rgba(0,0,0,.50);
+	-moz-shadow:0px 2px 5px rgba(0,0,0,.50);
+	border-radius:100px;
+	-moz-border-radius:100px;
+	width:26px;
+	padding:2px 0px 0px;
+	text-align:center;
+	height:24px;
+	color:#fff;
+	text-shadow:none;
+}
+
+.ipw_top .ipw_close:hover {
+	text-decoration:none;
+	background:#555;
+}
+
+.ipw_settings table tr td {
+	padding:5px 0px;
+}
+
+.ipw_settings label {
+	font-size:80%;
+}
+
+#ipw_country, #ipw_affiliate_id {
+	width:100px;
+}
+
+.ipw_artist_id {
+}
+
+.artist_album { width:100%; }
+.checkmark { width:48px; height: 48px; background: transparent url(../img/checkmark.png); float: left}
+#artist_submit { margin:20px auto 0px; text-align: center;}
+
+.ipw_albums { 
+	width: 250px;  
+	padding: 0px; 
+	margin:20px 0px 20px; 
+	list-style:none !important;
+}
+
+.ipw_albums li { 
+	margin: 10px 0px; 
+	padding: 10px 0px;  
+	}
+
+.ipw_albums li a img, .artist_album { 
+	margin:-7px 5px 0px 0px; 
+	-moz-box-shadow:0 2px 2px rgba(0, 0, 0, 0.5); 
+	-webkit-box-shadow:0 2px 2px rgba(0, 0, 0, 0.5); 
+	box-shadow:0 2px 2px rgba(0, 0, 0, 0.5);  
+	border:1px solid #FFFFFF;
+}
+
+.ipw_albums.widget_albums { margin:10px; padding: 0px; }
+.ipw_widget_container { }
+
+
+.ipw_skorinc { display: block;}
+.ipw_skorinc_logo {float:right; height: 16px; padding: 0px 21px 0px 0px; font-size:10px; display: block; background: transparent url(../img/skorinc_logo.png) right center no-repeat; }
+
+.ipw_loading { background: transparent url(../img/ajax-loader.gif) center center no-repeat; min-height:400px; }
